@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		ED2D1DE21DD645560042C05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DE11DD645560042C05D /* AppDelegate.swift */; };
-		ED2D1DE41DD645560042C05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DE31DD645560042C05D /* ViewController.swift */; };
 		ED2D1DE71DD645560042C05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2D1DE51DD645560042C05D /* Main.storyboard */; };
 		ED2D1DE91DD645560042C05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2D1DE81DD645560042C05D /* Assets.xcassets */; };
 		ED2D1DEC1DD645560042C05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2D1DEA1DD645560042C05D /* LaunchScreen.storyboard */; };
+		ED2D1DF41DD87D370042C05D /* TipoMasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DF31DD87D370042C05D /* TipoMasaController.swift */; };
+		ED2D1DF61DD87D5C0042C05D /* TipoQuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DF51DD87D5C0042C05D /* TipoQuesoController.swift */; };
+		ED2D1DF81DD87D710042C05D /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DF71DD87D710042C05D /* IngredientesController.swift */; };
+		ED2D1DFA1DD87D830042C05D /* FinPedidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DF91DD87D830042C05D /* FinPedidoController.swift */; };
+		ED2D1DFC1DDA441D0042C05D /* TamanioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D1DFB1DDA441D0042C05D /* TamanioViewController.swift */; };
+		ED3F8FF11DFC20ED00AC7E71 /* ConfirmacionPedidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F8FF01DFC20ED00AC7E71 /* ConfirmacionPedidoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED2D1DDE1DD645560042C05D /* PizzasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2D1DE11DD645560042C05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED2D1DE31DD645560042C05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED2D1DE61DD645560042C05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED2D1DE81DD645560042C05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2D1DEB1DD645560042C05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2D1DED1DD645560042C05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2D1DF31DD87D370042C05D /* TipoMasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaController.swift; sourceTree = "<group>"; };
+		ED2D1DF51DD87D5C0042C05D /* TipoQuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoController.swift; sourceTree = "<group>"; };
+		ED2D1DF71DD87D710042C05D /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		ED2D1DF91DD87D830042C05D /* FinPedidoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinPedidoController.swift; sourceTree = "<group>"; };
+		ED2D1DFB1DDA441D0042C05D /* TamanioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanioViewController.swift; sourceTree = "<group>"; };
+		ED3F8FF01DFC20ED00AC7E71 /* ConfirmacionPedidoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPedidoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				ED2D1DE11DD645560042C05D /* AppDelegate.swift */,
-				ED2D1DE31DD645560042C05D /* ViewController.swift */,
 				ED2D1DE51DD645560042C05D /* Main.storyboard */,
 				ED2D1DE81DD645560042C05D /* Assets.xcassets */,
 				ED2D1DEA1DD645560042C05D /* LaunchScreen.storyboard */,
 				ED2D1DED1DD645560042C05D /* Info.plist */,
+				ED2D1DF31DD87D370042C05D /* TipoMasaController.swift */,
+				ED2D1DF51DD87D5C0042C05D /* TipoQuesoController.swift */,
+				ED2D1DF71DD87D710042C05D /* IngredientesController.swift */,
+				ED2D1DF91DD87D830042C05D /* FinPedidoController.swift */,
+				ED2D1DFB1DDA441D0042C05D /* TamanioViewController.swift */,
+				ED3F8FF01DFC20ED00AC7E71 /* ConfirmacionPedidoController.swift */,
 			);
 			path = PizzasSwift;
 			sourceTree = "<group>";
@@ -136,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2D1DE41DD645560042C05D /* ViewController.swift in Sources */,
+				ED2D1DFC1DDA441D0042C05D /* TamanioViewController.swift in Sources */,
+				ED2D1DF81DD87D710042C05D /* IngredientesController.swift in Sources */,
+				ED3F8FF11DFC20ED00AC7E71 /* ConfirmacionPedidoController.swift in Sources */,
+				ED2D1DF41DD87D370042C05D /* TipoMasaController.swift in Sources */,
+				ED2D1DFA1DD87D830042C05D /* FinPedidoController.swift in Sources */,
+				ED2D1DF61DD87D5C0042C05D /* TipoQuesoController.swift in Sources */,
 				ED2D1DE21DD645560042C05D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +319,7 @@
 				ED2D1DF21DD645560042C05D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
